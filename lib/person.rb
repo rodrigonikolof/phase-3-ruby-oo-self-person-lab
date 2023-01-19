@@ -18,6 +18,7 @@ attr_accessor :bank_account
                         else 
                             happiness
                         end
+                        #could have used happiness.clamp(0,10)
     end
     def hygiene=(hygiene)
         @hygiene =  if hygiene > 10
